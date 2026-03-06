@@ -9,7 +9,7 @@ public class Ejercicio8 {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("ingrese la hora: ");
+		System.out.println("ingrese la hora:(0-23) ");
 		int hora = scanner.nextInt();
 		
 		if(hora >= 6 && hora < 12) {
